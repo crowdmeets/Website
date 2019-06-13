@@ -1,0 +1,42 @@
+.sub-title {
+  font-size: 22px;
+}
+
+.join-now-btn {
+  padding: 2% 8%;
+  border: none;
+  letter-spacing: 3px;
+  font-size: 18px;
+  background: #808080;
+}
+
+@media only screen and (min-width: 812px) {
+  /* Bigger screen */
+  .home-title {
+    padding-top: 30%;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 813px) {
+  /* Small screen */
+  .home-title {
+    padding-top: 20%;
+    font-weight: bold;
+  }
+}
+
+.container {
+  animation: whole 1.5s forwards 0s ease;
+}
+
+@keyframes whole {
+  0% {
+    transform: rotate(0) translateY(-15%);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) translateY(0);
+    opacity: 1;
+  }
+}

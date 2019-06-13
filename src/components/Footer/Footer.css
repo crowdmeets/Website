@@ -1,0 +1,20 @@
+.bg-muted {
+  background: #f8f8f8;
+}
+
+.footer-panel {
+  height: 30vh;
+  text-align: center;
+}
+
+.footer-title {
+  font-weight: bold;
+}
+
+.footer-subtitle {
+  font-size: 20px;
+}
+
+.newletter-inp {
+  width: 60% !important;
+}
